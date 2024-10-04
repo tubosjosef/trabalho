@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.imagem-centralizada {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,17 +1,32 @@
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
     margin: 0;
-    padding: 0;
-}
-
-.container {
+    background: linear-gradient(to bottom, #ff0000, #000000); /* Gradiente de vermelho para preto */
+    font-family: Arial, sans-serif;
     padding: 20px;
 }
 
-.imagem-centralizada {
-    max-width: 100%;
-    height: auto;
+img {
+    width: 600px; /* Tamanho da imagem */
+    margin-top: 20px; /* Espaço acima da imagem */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra na imagem */
+}
+
+h1 {
+    font-size: 2em; /* Tamanho da fonte para os títulos */
+    color: #fff; /* Cor dos títulos em branco */
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte para os parágrafos */
+    color: #ddd; /* Cor dos textos em cinza claro */
+    max-width: 800px; /* Largura máxima dos parágrafos */
+    text-align: center; /* Centralizar o texto */
+    margin: 10px 0; /* Margem vertical */
+    line-height: 1.5; /* Espaçamento entre linhas */
 }
